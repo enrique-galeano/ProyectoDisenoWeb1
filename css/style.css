@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Koulen|Lato:300,400,700|Montserrat:300,400,600,700|Muli:300,400,600,700|Oswald:300,400,600,700|Quicksand:300,400,600,700|Roboto:300,400,700|Rubik:300,400,700|Spartan:300,400,600,700&display=swap&subset=khmer');
+body{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+header{
+  background-image: url("../img/rectan-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#bestS article {
+  margin-left: 20px;
+}
+
+#newBooks article{
+  margin-left: 20px;
+}
+
+/*#middle{
+  background-image: url("../img/book-dry.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 25% 0;
+}*/
+
+.titulos{
+  font-size: 25px;
+  margin-top: 35px;
+  color: #B21F25;
+  border-bottom: 1px solid #707070;
+}
+
+/*esto es para los parrafos*/
+#firstColumns{
+  font-size: 10px;
+}
+
+/*esto es para los botones*/
+#firstColumns .btn-dark{
+  color:#B41C1E;
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+  /*margin-right: 30px;*/ /*Como mover con margen dentro de una columna preguntar */
+}
+
+#firstColumns h5{
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#secondColumns{
+  font-size: 10px;
+  padding-bottom: 5%;
+}
+
+#secondColumns h5 {
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+a{
+  font-size: 12px;
+  color: #B41C1E;
+}
+
+a:hover{
+  color: #B41C1E;
+}
+
+footer{
+  background-image: url("../img/rectan-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 15px 0;
+
+}
+
+#info-footer{
+  color:#ffffff;
+  padding: 20px 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.opening{
+  text-align: left;
+}
+
+/*Atributos de los iconos de paga de la pagina Loxous*/
+.redes i{
+  background-color: #ffffff;
+  color: #C2312C;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 100%;
+  transition: all 0.3 ease-in-out;
+  font-size: 35px;
+}
+
+.redes i:hover{
+  background-color: #d80808;
+  transition: all 0.3 ease-in-out;
+  color: #ffffff;
+}
+
+#copy-right p{
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+#about h2{
+	font-size: 30px;
+  margin-top: 35px;
+  color: #B21F25;
+  border-bottom: 1px solid #707070;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.ab1{
+	margin-bottom: 5%;
+	padding-top: 4%;
+}
+
+#history h2{
+font-size: 25px;
+  margin-top: 35px;
+  color: #B21F25;
+  border-bottom: 1px solid #707070;
+padding-bottom: 5px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+#history p{
+	padding: 1% 0;
+	color: #707070;
+	font-size: 15px;
+}
+
+.ab2{
+	margin-bottom: 7%;
+	padding-top: 4%;
+}
+#contact h2{
+	font-size: 30px;
+  margin-top: 25px;
+	margin-bottom: 25px;
+  color: #B21F25;
+  border-bottom: 1px solid #707070;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.icon-up{
+	position: relative;
+	background-color: #f2f4f8;
+	height: 200px;
+	overflow: hidden;
+}
+.icono{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	text-align: center;
+	color: #B41C1E;
+	font-size: 40px;
+	transition: all 0.3s ease-in;
+}
+
+.texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	opacity: 0;
+	text-align: center;
+	transition: all 0.3s ease-in;
+}
+
+.icon-up:hover .icono{
+	opacity: 0;
+	transition: all 0.3s ease-in;
+}
+
+.icon-up:hover .texto{
+	opacity: 1;
+	transition: all 0.3s ease-in;
+}
+
+#map{
+	width: 100%;
+	height: 400px;
+}
+
+#localizacion{
+	margin: 4% 0px;
+}
+
+.bgrojo{
+	background-color: #B41C1E;
+}
+/*preguntarle sobre el background del mapa*/
+#cards{
+	margin: 3%;
+	align-content: center;
+}
+
+#cards h3{
+font-size: 30px;
+margin-top: 25px;
+margin-bottom: 25px;
+color: #B21F25;
+border-bottom: 1px solid #707070;
+padding-bottom: 5px;
+text-transform: uppercase;
+}
+
+#cards p, a{
+	text-align: center;
+	color: #b41c1e;
+	font-size: 15px;
+	font-weight: 400%;
+}
+
+
+.tarjeta{
+	border-right: 1px solid #707070;
+}
+
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
