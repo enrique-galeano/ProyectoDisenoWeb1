@@ -10,8 +10,7 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 10px 0;
 }
 
 #bestS article {
@@ -95,6 +94,9 @@ footer{
 
 .opening{
   text-align: left;
+}
+.opening h2{
+  color: #fff;
 }
 
 /*Atributos de los iconos de paga de la pagina Loxous*/
@@ -361,14 +363,14 @@ h6{
 
 #book h4{
 	padding: 4% 0;
-	color: #707070;
+	color: #B21F25;
 	font-size: 17px;
   text-align: center;
 }
 
 #book h5{
 	padding: 1% 0;
-	color: #707070;
+	color: #B21F25;
 	font-size: 17px;
   text-align: center;
 }
